@@ -1,0 +1,21 @@
+# f=open('k.txt','a')
+# f.write('python')
+
+# f=open('p.txt','r')
+# content=f.read()
+# f1=open('k.txt','a')
+# f1.write(content)
+
+# f=open('k.txt','a+')
+# f.write('python')
+# content=f.read()
+# print(content)
+
+f=open('k.txt','a+')
+print('current position',f.tell())
+f.write('python')
+print('current position',f.tell())
+f.seek(0)
+print('current position',f.tell())
+content=f.read()
+print('content',content)

@@ -1,0 +1,4 @@
+anu=75
+rahul=65
+neera=90
+arun=70
